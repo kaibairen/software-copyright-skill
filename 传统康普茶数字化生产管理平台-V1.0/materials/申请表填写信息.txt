@@ -1,0 +1,55 @@
+============================================================
+传统康普茶数字化生产管理平台V1.0 - 申请表填写信息
+============================================================
+
+software_name:
+  传统康普茶数字化生产管理平台
+
+version:
+  V1.0
+
+short_name:
+  康普茶生产管理系统
+
+software_type:
+  应用软件
+
+completion_date:
+  2025年01月21日
+
+dev_hardware:
+  CPU: 双核2.0GHz及以上, 内存: 8GB及以上, 硬盘: 100GB及以上
+
+runtime_hardware:
+  CPU: 双核2.0GHz及以上, 内存: 4GB及以上, 硬盘: 50GB及以上
+
+dev_os:
+  Windows 10/11, Linux (Ubuntu 20.04+), macOS
+
+dev_tools:
+  Python 3.8+, Flask 2.3+, Vue.js 3.x, Element Plus, MySQL, InfluxDB
+
+runtime_platform:
+  Windows 10/11, Linux, macOS, Web浏览器(Chrome, Firefox, Edge)
+
+runtime_support:
+  Python运行环境, MySQL数据库, Web浏览器
+
+programming_language:
+  Python(后端核心), HTML5(前端), CSS3(样式), JavaScript ES6+(交互), SQL(数据库), Jinja2(模板), MQTT(IoT通信)
+
+code_lines:
+  约3500行(前端约1800行,后端约1700行)
+
+dev_purpose:
+  通过数字化手段实现康普茶生产全流程的信息化管理，包括原料管理、发酵过程监控、批次追踪、库存管理等功能，提高生产效率、保证产品质量、降低生产成本
+
+application_field:
+  食品加工、饮料制造、发酵工程、生产管理
+
+main_functions:
+  原料信息管理模块实现原料档案建立、分类管理、库存监控等功能；发酵流程监控模块支持第一发酵和第二发酵全过程数据录入和实时监控；批次追踪系统模块实现从原料到成品的完整追溯链路，支持向前溯源和向后追踪；库存预警管理模块提供智能库存预警和补货建议；实时数据监控模块通过IoT技术实现发酵参数实时采集和可视化展示；智能工艺优化模块基于历史数据分析提供参数优化建议；任务提醒功能模块自动生成任务提醒并推送给相关人员；用户权限管理模块实现基于角色的访问控制。
+
+technical_features:
+  本软件采用数据库驱动架构设计，通过SQLAlchemy ORM框架实现数据持久化，包含完整的数据库模型定义和数据初始化服务。基于规则的预警系统从数据库动态读取预警规则进行实时监控。采用MQTT协议实现IoT设备数据采集，InfluxDB时序数据库存储传感器数据。采用JWT Token实现身份认证，使用bcrypt加密密码确保数据安全。采用RESTful API架构实现前后端分离，响应式Web设计支持多终端访问。实现加权评分模型进行发酵成熟度计算。系统包含完整的CRUD操作和数据验证机制，支持WebSocket实时数据推送。
+
